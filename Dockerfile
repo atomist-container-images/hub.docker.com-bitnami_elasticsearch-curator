@@ -1,12 +1,24 @@
-# Tags: latest, 5.8.4-debian-10-r328, 5.8.4, 5-debian-10, 5
+# Tags: latest, 5.8.4-debian-10-r332, 5.8.4, 5-debian-10, 5
 FROM bitnami/elasticsearch-curator:latest
-FROM bitnami/elasticsearch-curator:5.8.4-debian-10-r328
+FROM bitnami/elasticsearch-curator:5.8.4-debian-10-r332
 FROM bitnami/elasticsearch-curator:5.8.4
 FROM bitnami/elasticsearch-curator:5-debian-10
 FROM bitnami/elasticsearch-curator:5
 
 # Tags: _
 FROM bitnami/elasticsearch-curator:_
+
+# Tags: 5.8.4-debian-10-r331
+FROM bitnami/elasticsearch-curator:5.8.4-debian-10-r331
+
+# Tags: 5.8.4-debian-10-r330
+FROM bitnami/elasticsearch-curator:5.8.4-debian-10-r330
+
+# Tags: 5.8.4-debian-10-r329
+FROM bitnami/elasticsearch-curator:5.8.4-debian-10-r329
+
+# Tags: 5.8.4-debian-10-r328
+FROM bitnami/elasticsearch-curator:5.8.4-debian-10-r328
 
 # Tags: 5.8.4-debian-10-r327
 FROM bitnami/elasticsearch-curator:5.8.4-debian-10-r327
@@ -82,15 +94,3 @@ FROM bitnami/elasticsearch-curator:5.8.4-debian-10-r304
 
 # Tags: 5.8.4-debian-10-r303
 FROM bitnami/elasticsearch-curator:5.8.4-debian-10-r303
-
-# Tags: 5.8.4-debian-10-r302
-FROM bitnami/elasticsearch-curator:5.8.4-debian-10-r302
-
-# Tags: 5.8.4-debian-10-r301
-FROM bitnami/elasticsearch-curator:5.8.4-debian-10-r301
-
-# Tags: 5.8.4-debian-10-r300
-FROM bitnami/elasticsearch-curator:5.8.4-debian-10-r300
-
-# Tags: 5.8.4-debian-10-r299
-FROM bitnami/elasticsearch-curator:5.8.4-debian-10-r299
